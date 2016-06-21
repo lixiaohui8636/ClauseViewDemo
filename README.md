@@ -5,7 +5,8 @@
 ---------------------------------------------------------------------------------------------------
 ## 引用方法
 ### 1,AndroidStudio
-     project的build.gradle中(AndroidStudio v1.2以上默认使用jcenter，此处可以忽略)
+     首先确保AndroidStudio对jcenter支持 （AndroidStudio v1.2以上默认使用jcenter，此处可以不用修改，只需修改Moudle的build.gradle即可）
+     project的build.gradle中()
 ```xml
      repositories {
         jcenter()
