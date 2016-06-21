@@ -9,6 +9,13 @@
 
 ## 引用方法
 ### 1,AndroidStudio
+     在build.gradle的dependencies中加入如下代码
+```xml
+    compile 'com.lixiaohui8636:clauseview:1.0'
+```
+###2，eclipse
+    添加arr文件到libs
+    [下载arr](http://www.baidu.com)
 
 ---------------------------------------------------------------------------------------------------
 ## 示例代码
