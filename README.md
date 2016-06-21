@@ -3,10 +3,10 @@
 
 
 ---------------------------------------------------------------------------------------------------
-#效果图
+# 效果图
 ![image](https://github.com/lixiaohui8636/ClauseViewDemo/blob/master/snashot.png)  
 ---------------------------------------------------------------------------------------------------
-#示例代码
+# 示例代码
     1,在Layout里面设置
     <com.lixiaohui8636.widget.ClauseView
             xmlns:clause="http://schemas.android.com/apk/res-auto"
