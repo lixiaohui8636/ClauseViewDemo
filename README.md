@@ -15,7 +15,7 @@
 ```
 ###2，eclipse
     添加arr文件到libs
-[点击下载arr文件](https://github.com/lixiaohui8636/ClauseViewDemo/blob/master/clauseview-release.aar)
+[点击下载arr文件](http://pan.baidu.com/s/1kVtpW3P)
 
 ---------------------------------------------------------------------------------------------------
 ## 示例代码
