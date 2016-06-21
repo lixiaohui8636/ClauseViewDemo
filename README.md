@@ -5,7 +5,21 @@
 ---------------------------------------------------------------------------------------------------
 ## 引用方法
 ### 1,AndroidStudio
-     在build.gradle的dependencies中加入如下代码
+     project的build.gradle中(AndroidStudio v1.2以上默认使用jcenter，此处可以忽略)
+```xml
+    buildscript {
+     repositories {
+        jcenter()
+     }
+     dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+     
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+     }
+    }
+```
+     在Moudle的build.gradle的dependencies中加入如下代码
 ```xml
     compile 'com.lixiaohui8636:clauseview:1.0'
 ```
