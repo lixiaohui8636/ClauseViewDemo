@@ -3,12 +3,12 @@
 
 
 ---------------------------------------------------------------------------------------------------
-# 效果图
+### 效果图
 ![image](https://github.com/lixiaohui8636/ClauseViewDemo/blob/master/snashot.png)  
 ---------------------------------------------------------------------------------------------------
-# 示例代码
+### 示例代码
     1,在Layout里面设置
-    <pre><code><com.lixiaohui8636.widget.ClauseView
+    <com.lixiaohui8636.widget.ClauseView
             xmlns:clause="http://schemas.android.com/apk/res-auto"
             android:id="@+id/aaa"
             android:layout_width="match_parent"
@@ -27,14 +27,14 @@
             clause:cv_drawLeftMargin="10dp"
             clause:cv_drawRightMargin="10dp"
             clause:cv_remarkTextColor="@color/colorAccent"
-            /></code></pre>
+            />
     2,java代码设置属性
-        <pre><code>ClausesView clausesView= (ClausesView) findViewById(R.id.aaa);
+        ClausesView clausesView= (ClausesView) findViewById(R.id.aaa);
         clausesView.setUnderlineColor(R.color.colorAccent);
         clausesView.setTitleTextColor(R.color.colorAccent);
-        clausesView.setTitle(R.string.app_name);</code></pre>
+        clausesView.setTitle(R.string.app_name);
 ---------------------------------------------------------------------------------------------------
-#参数说明
+###参数说明
     cv_drawLeft： 左边的图标  默认图标
     cv_title：左边的文字 TITLE
     cv_remark：右边的文字 REMARK
@@ -57,6 +57,5 @@
     cv_drawLeftMargin：左边图标的margin
     cv_drawRightMargin：右边图标的margin
 ---------------------------------------------------------------------------------------------------
-
 
 
