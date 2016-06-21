@@ -13,6 +13,7 @@
 ---------------------------------------------------------------------------------------------------
 ### 示例代码
     1,在Layout里面设置
+    ```xml
         <com.lixiaohui8636.widget.ClauseView
             xmlns:clause="http://schemas.android.com/apk/res-auto"
             android:id="@+id/aaa"
@@ -33,11 +34,14 @@
             clause:cv_drawRightMargin="10dp"
             clause:cv_remarkTextColor="@color/colorAccent"
             />
+    ```
     2,java代码设置属性
+    ```java
         ClausesView clausesView= (ClausesView) findViewById(R.id.aaa);
         clausesView.setUnderlineColor(R.color.colorAccent);
         clausesView.setTitleTextColor(R.color.colorAccent);
         clausesView.setTitle(R.string.app_name);
+    ```
 ---------------------------------------------------------------------------------------------------
 ###参数说明
     cv_drawLeft： 左边的图标  默认图标
