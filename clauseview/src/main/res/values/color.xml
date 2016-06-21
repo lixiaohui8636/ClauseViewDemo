@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clauses_view_default_title_color">#212121</color>
+    <color name="clauses_view_default_remark_color">#727272</color>
+</resources>
