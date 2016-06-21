@@ -14,7 +14,7 @@
 ```
      在Moudle的build.gradle的dependencies中加入如下代码
 ```xml
-    compile 'com.lixiaohui8636:clauseview:1.0'
+    compile 'com.lixiaohui8636:clauseview:1.1'
 ```
 ###2，eclipse
     添加arr文件到libs
