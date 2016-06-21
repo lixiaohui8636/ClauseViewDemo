@@ -45,7 +45,7 @@
     clause:cv_remarkTextColor="@color/colorAccent"
     />
 ```
-### 2,java代码设置属性
+### 2,Java代码设置属性
 ```java
     ClausesView clausesView= (ClausesView) findViewById(R.id.aaa);
     clausesView.setUnderlineColor(R.color.colorAccent);
