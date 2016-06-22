@@ -9,12 +9,12 @@
      project的build.gradle中()
 ```xml
      repositories {
-        jcenter()
+        jcenter()````
      }
 ```
      在Moudle的build.gradle的dependencies中加入如下代码
 ```xml
-    compile 'com.lixiaohui8636:clauseview:1.1'
+    compile 'com.lixiaohui8636:clause-view:1.0'
 ```
      你也可以直接下载
 [ ![Download](https://api.bintray.com/packages/lixiaohui8636/maven/ClauseView/images/download.svg) ](https://bintray.com/lixiaohui8636/maven/ClauseView/_latestVersion)
