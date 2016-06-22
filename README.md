@@ -9,7 +9,7 @@
      project的build.gradle中()
 ```xml
      repositories {
-        jcenter()````
+        jcenter()
      }
 ```
      在Moudle的build.gradle的dependencies中加入如下代码
