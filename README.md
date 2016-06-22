@@ -16,6 +16,8 @@
 ```xml
     compile 'com.lixiaohui8636:clauseview:1.1'
 ```
+     你也可以直接下载
+[ ![Download](https://api.bintray.com/packages/lixiaohui8636/maven/ClauseView/images/download.svg) ](https://bintray.com/lixiaohui8636/maven/ClauseView/_latestVersion)
 ###2，eclipse
     添加arr文件到libs
 [点击下载arr文件](http://pan.baidu.com/s/1jIvtTVS)
