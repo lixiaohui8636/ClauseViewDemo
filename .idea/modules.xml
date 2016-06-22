@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClauseViewDemo.iml" filepath="$PROJECT_DIR$/ClauseViewDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/clauseview/clauseview.iml" filepath="$PROJECT_DIR$/clauseview/clauseview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clause-view/clauseview.iml" filepath="$PROJECT_DIR$/clause-view/clauseview.iml" />
     </modules>
   </component>
 </project>

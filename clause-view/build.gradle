@@ -4,8 +4,8 @@ ext {
     bintrayName = 'ClauseView'
 
     publishedGroupId = 'com.lixiaohui8636'
-    libraryName = 'clauseview'
-    artifact = 'clauseview'
+    libraryName = 'clause-view'
+    artifact = 'clause-view'
 
     libraryDescription = 'The ClauseView'
 
@@ -34,7 +34,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }

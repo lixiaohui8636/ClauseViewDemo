@@ -1,1 +1,1 @@
-include ':app', ':clauseview'
+include ':app', ':clause-view'
