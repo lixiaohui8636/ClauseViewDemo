@@ -3,19 +3,24 @@
 
 
 ---------------------------------------------------------------------------------------------------
-## 效果图
-![image](https://github.com/lixiaohui8636/ClauseViewDemo/blob/master/snashot.png)  
----------------------------------------------------------------------------------------------------
-
 ## 引用方法
 ### 1,AndroidStudio
-     在build.gradle的dependencies中加入如下代码
+     首先确保AndroidStudio对jcenter支持 （AndroidStudio v1.2以上默认使用jcenter，此处可以不用修改，只需修改Moudle的build.gradle即可）
+     project的build.gradle中()
 ```xml
-    compile 'com.lixiaohui8636:clauseview:1.0'
+     repositories {
+        jcenter()
+     }
 ```
+     在Moudle的build.gradle的dependencies中加入如下代码
+```xml
+    compile 'com.lixiaohui8636:clauseview:1.1'
+```
+     你也可以直接下载
+[ ![Download](https://api.bintray.com/packages/lixiaohui8636/maven/ClauseView/images/download.svg) ](https://bintray.com/lixiaohui8636/maven/ClauseView/_latestVersion)
 ###2，eclipse
     添加arr文件到libs
-[点击下载arr文件](https://github.com/lixiaohui8636/ClauseViewDemo/blob/master/clauseview-release.aar)
+[点击下载arr文件](http://pan.baidu.com/s/1jIvtTVS)
 
 ---------------------------------------------------------------------------------------------------
 ## 示例代码
@@ -42,7 +47,7 @@
     clause:cv_remarkTextColor="@color/colorAccent"
     />
 ```
-### 2,java代码设置属性
+### 2,Java代码设置属性
 ```java
     ClausesView clausesView= (ClausesView) findViewById(R.id.aaa);
     clausesView.setUnderlineColor(R.color.colorAccent);
@@ -75,5 +80,7 @@
     cv_drawRightMargin：右边图标的margin
 ```
 ---------------------------------------------------------------------------------------------------
-
+## 效果图
+![image](https://github.com/lixiaohui8636/ClauseViewDemo/blob/master/snashot.png)  
+---------------------------------------------------------------------------------------------------
 
