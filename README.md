@@ -17,8 +17,8 @@
     compile 'com.lixiaohui8636:clause-view:1.0'
 ```
 ###2，eclipse
-    添加arr文件到libs
-[点击下载arr文件](http://pan.baidu.com/s/1qYUZ71y)
+    添加aar文件到libs
+[点击下载aar文件](http://pan.baidu.com/s/1qYUZ71y)
 
 ---------------------------------------------------------------------------------------------------
 ## 示例代码
